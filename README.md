@@ -1,10 +1,10 @@
 # T3 Websocket Server
 
-This is going to part part of the Tic Tac Toe application eventually. This piece is for the Websockets component.
+This is going to be part of the Tic Tac Toe application eventually. This piece is for the Websockets component.
 
-Using the [Phoenix](https://github.com/phoenixframework/phoenix) Web Framework for this.
+This is currently using the [Phoenix](https://github.com/phoenixframework/phoenix) Web Framework.
 
-### Running this:
+### How to run this:
 
 ```
 % git@github.com:benjamintanweihao/t3_websocket_server.git && cd t3_websocket_server
