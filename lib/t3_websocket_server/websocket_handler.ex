@@ -9,8 +9,12 @@ defmodule T3WebsocketServer.WebSocketHandler do
     {:ok, req, :undefined_state}
   end
 
+  def websocket_handle({:text, msg}, req, state) do
+    {:reply, {:text, "That's what she said! #{msg}"}, req, state}
+  end
+
   def websocket_handle(_data, req, state) do
-    {:reply, {:text, "That's what she said!"}, req, state}
+    {:ok, req, state}
   end
 
   def websocket_info({:timeout, _ref, msg}, req, state) do
