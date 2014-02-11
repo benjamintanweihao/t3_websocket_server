@@ -12,4 +12,4 @@ Using the [Phoenix](https://github.com/phoenixframework/phoenix) Web Framework f
 % iex -S mix
 ```
 
-Then navigate to [`http://localhost:3030`](http://localhost:3030) for some awesome websocket action!
+Then navigate to [`http://localhost:3030/pages`](http://localhost:3030/pages) for some awesome websocket action!
