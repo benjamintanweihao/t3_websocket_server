@@ -7,8 +7,9 @@ Using the [Phoenix](https://github.com/phoenixframework/phoenix) Web Framework f
 ### Running this:
 
 ```
-mix deps.get
-iex -S mix
+% git@github.com:benjamintanweihao/t3_websocket_server.git && cd t3_websocket_server
+% mix deps.get
+% iex -S mix
 ```
 
 Then navigate to [`http://localhost:3030`](http://localhost:3030) for some awesome websocket action!
