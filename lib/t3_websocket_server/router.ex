@@ -16,8 +16,4 @@ defmodule T3WebsocketServer.Router do
     start
   end
 
-  # FIXME: WHY DO I NEED THIS?
-  def init(what) do 
-    IO.inspect what
-  end
 end

@@ -15,7 +15,8 @@ defmodule T3WebsocketServer.Mixfile do
 
   defp deps do
     [
-      { :phoenix, github: "phoenixframework/phoenix" }
+      { :phoenix, github: "phoenixframework/phoenix" },
+      { :plug, git: "https://github.com/elixir-lang/plug.git", tag: "v0.2.0", override: true },
     ]
   end
 end
