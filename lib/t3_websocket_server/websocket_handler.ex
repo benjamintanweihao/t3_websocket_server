@@ -1,5 +1,6 @@
 defmodule T3WebsocketServer.WebSocketHandler do
   @behaviour :cowboy_websocket_handler
+
   def init({:tcp, :http}, _req, _opts) do
     {:upgrade, :protocol, :cowboy_websocket}
   end
