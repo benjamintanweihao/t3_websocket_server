@@ -7,7 +7,7 @@ This is currently using the [Phoenix](https://github.com/phoenixframework/phoeni
 ### How to run this:
 
 ```
-% git@github.com:benjamintanweihao/t3_websocket_server.git && cd t3_websocket_server
+% git clone git@github.com:benjamintanweihao/t3_websocket_server.git && cd t3_websocket_server
 % mix deps.get
 % iex -S mix
 ```
