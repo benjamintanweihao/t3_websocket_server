@@ -14,10 +14,6 @@ defmodule T3WebsocketServer.WebSocketHandler do
     {:reply, {:text, "That's what she said! #{msg}"}, req, state}
   end
 
-  def websocket_handle(_data, req, state) do
-    {:ok, req, state}
-  end
-
   def websocket_info({:timeout, _ref, msg}, req, state) do
     :erlang.start_timer(1000, self, "How' you doin'?")
     {:reply, {:text, msg}, req, state}
