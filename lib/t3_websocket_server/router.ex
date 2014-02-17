@@ -16,4 +16,7 @@ defmodule T3WebsocketServer.Router do
     start
   end
 
+  def init([]) do
+  end
+
 end
