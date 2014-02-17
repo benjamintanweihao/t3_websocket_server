@@ -10,7 +10,7 @@ defmodule T3WebsocketServer.Router do
       ]}
     ]
 
-  get "pages", T3WebsocketServer.PagesController, :index, as: :pages
+  get "/pages", T3WebsocketServer.PagesController, :index, as: :pages
 
   def start_link do
     start
